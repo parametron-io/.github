@@ -14,5 +14,6 @@ These defaults apply to repositories that do not provide their own equivalent fi
 - `REPOSITORY_LAUNCH_CHECKLIST.md` — repeatable launch and publication checklist for Parametron repositories
 - `.github/ISSUE_TEMPLATE/` — default issue forms
 - `.github/PULL_REQUEST_TEMPLATE.md` — default pull request template
+- `rulesets/` — reusable repository ruleset definitions
 
 Repository-local files may override these defaults when a component needs more specific guidance.
