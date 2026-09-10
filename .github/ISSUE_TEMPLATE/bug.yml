@@ -1,6 +1,5 @@
 name: Bug report
 description: Report reproducible behavior that differs from the documented or tested expectation
-title: ""
 body:
   - type: markdown
     attributes:
