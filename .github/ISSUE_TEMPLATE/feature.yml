@@ -1,0 +1,54 @@
+name: Feature request
+description: Propose a capability within the published scope of this repository
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the engineering problem first. A focused proposal is easier to evaluate than a broad product blueprint.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What concrete problem or limitation should be addressed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What capability or observable result would solve the problem?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope
+      description: Describe the smallest useful boundary for the change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Note existing mechanisms or narrower approaches you considered.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, examples, diagrams, or other public context that helps evaluate the proposal.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and pull requests for related work.
+          required: true
+        - label: The proposal stays within this repository's published responsibility boundary.
+          required: true
