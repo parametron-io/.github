@@ -1,6 +1,5 @@
 name: Feature request
 description: Propose a capability within the published scope of this repository
-title: ""
 body:
   - type: markdown
     attributes:
