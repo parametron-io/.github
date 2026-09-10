@@ -11,6 +11,7 @@ These defaults apply to repositories that do not provide their own equivalent fi
 - `CODE_OF_CONDUCT.md` — community conduct expectations
 - `SECURITY.md` — vulnerability reporting guidance
 - `SUPPORT.md` — support and help channels
+- `REPOSITORY_LAUNCH_CHECKLIST.md` — repeatable launch and publication checklist for Parametron repositories
 - `.github/ISSUE_TEMPLATE/` — default issue forms
 - `.github/PULL_REQUEST_TEMPLATE.md` — default pull request template
 
