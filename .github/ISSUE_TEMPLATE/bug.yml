@@ -1,0 +1,82 @@
+name: Bug report
+description: Report reproducible behavior that differs from the documented or tested expectation
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please keep the report focused on one reproducible problem.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+      placeholder: A concise description of the problem.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release, tag, or commit SHA where the problem occurs.
+      placeholder: v0.1.0 or abc1234
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Relevant OS, runtime, CAD application, toolchain, or other environment details.
+      placeholder: |
+        OS:
+        Runtime/toolchain:
+        CAD version:
+        Other relevant details:
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable sequence that reproduces the problem.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or evidence
+      description: Add relevant logs, failure records, screenshots, or other evidence. Remove secrets and private data.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and pull requests for this problem.
+          required: true
+        - label: I removed secrets, credentials, and private data from the report.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true
