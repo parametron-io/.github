@@ -125,7 +125,7 @@ Baseline:
 - [ ] Block branch deletion.
 - [ ] Require repository CI checks after the checks exist and their names are stable.
 - [ ] Do not require signed commits unless the organization deliberately adopts that policy later.
-- [ ] Keep an owner/admin emergency bypass only if needed; normal development should still use pull requests.
+- [ ] Keep no bypass by default. Add an owner/admin emergency bypass only when a concrete operational need justifies it; normal development should still use pull requests.
 
 Do not configure a required status check before the corresponding workflow has run successfully at least once.
 

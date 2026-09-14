@@ -21,10 +21,10 @@ Organization issue types are used as follows:
 
 - **Bug** — behavior that differs from the documented or tested expectation
 - **Feature** — a new user- or system-visible capability
-- **Task** — bounded engineering, testing, documentation, refactoring, or maintenance work
-- **Phase** — maintainer-owned planning object for a bounded engineering objective
+- **Task** — maintainer-created bounded engineering, testing, documentation, refactoring, or maintenance work
+- **Phase** — maintainer-owned bounded planning objective
 
-Phase issues coordinate groups of work and are normally created and maintained by project maintainers.
+Public issue forms are provided for Bug and Feature intake; maintainers may create Task or Phase issues from accepted proposals.
 
 Cross-repository dependencies should link the real blocking and blocked issues rather than duplicating work in multiple repositories.
 

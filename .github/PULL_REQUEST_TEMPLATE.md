@@ -20,9 +20,7 @@
 
 ## Breaking changes
 
-None.
-
-<!-- Replace "None." when the change breaks a public contract or expected behavior. -->
+<!-- Describe any breaking change and migration impact. If none, write "None." -->
 
 ## Checklist
 
