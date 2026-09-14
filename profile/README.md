@@ -18,7 +18,7 @@ Public repositories are published here as they are prepared for external use and
 
 ## Contributing
 
-Contributions are welcome within the published scope of each repository. Please read the organization-wide contribution guidance and the repository-local documentation before opening a pull request.
+Contributions are welcome within the published scope of each repository. Please read the [organization-wide contribution guidance](https://github.com/parametron-io/.github/blob/main/CONTRIBUTING.md) and the repository-local documentation before opening a pull request.
 
 For security vulnerabilities, do not open a public issue. Follow the security policy provided by the affected repository.
 
