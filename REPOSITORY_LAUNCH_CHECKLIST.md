@@ -49,7 +49,7 @@ New repositories should inherit the organization baseline where applicable.
 - `Feature`
 - `Phase`
 
-`Phase` is a maintainer-owned bounded engineering objective that groups related work and exit criteria.
+`Phase` and `Task` are maintainer-owned issue types. A `Phase` is a bounded engineering objective that groups related work and exit criteria; a `Task` is a bounded unit of planned work under a Phase.
 
 ### Issue fields
 
@@ -136,7 +136,7 @@ Do not configure a required status check before the corresponding workflow has r
 - [ ] Workflows default to read access unless a specific job needs write permission.
 - [ ] Workflows do not expose organization or repository secrets to untrusted pull requests.
 - [ ] Fork pull-request workflow policy is reviewed before accepting external contributions.
-- [ ] Third-party Actions are reviewed and pinned appropriately for the repository's security requirements.
+- [ ] Third-party Actions are reviewed and pinned to a full commit SHA; include a release or version comment where useful for readability.
 - [ ] Expensive jobs use reasonable path filters, caching, or concurrency controls where useful.
 - [ ] Repository-local verification commands are documented.
 
