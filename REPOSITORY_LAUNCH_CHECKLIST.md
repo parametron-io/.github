@@ -49,7 +49,7 @@ New repositories should inherit the organization baseline where applicable.
 - `Feature`
 - `Phase`
 
-`Phase` is a maintainer-owned bounded engineering objective that groups related work and exit criteria.
+`Phase` and `Task` are maintainer-owned issue types. A `Phase` is a bounded engineering objective that groups related work and exit criteria; a `Task` is a bounded unit of planned work under a Phase.
 
 ### Issue fields
 
