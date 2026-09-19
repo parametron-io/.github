@@ -63,6 +63,8 @@ Use the owning repository's normal automated test suite and any focused integrat
 
 Stable cross-repository public architecture belongs in the public Parametron documentation. Implementation-specific behavior belongs in the repository that owns it.
 
+Parametron's project-wide open-source intent is documented in the [Open Source](https://github.com/parametron-io/parametron-docs/blob/main/docs/governance/open-source.md) statement.
+
 Active work state is tracked in GitHub Issues and organization Projects rather than duplicated into documentation.
 
 ## Conduct and security
